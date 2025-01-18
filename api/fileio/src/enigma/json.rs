@@ -1,5 +1,6 @@
 use std::{fmt, fs};
 use std::io::ErrorKind;
+use serde;
 
 #[derive(serde::Deserialize, Debug)]
 pub struct FileMetadata {
